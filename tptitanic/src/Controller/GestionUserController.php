@@ -10,14 +10,20 @@ class GestionUserController extends AbstractController
     /**
      * @Route("/gestion/login", name="gestion_login")
      */
-    public function connexion()
+    public function connexion(Request $request)
     {
-        // réccupérer les données
-        // traiter les données -> variable
-        // retourne les données de la varible
-        return $this->json([
-            'message' => 'Welcome to your new controller!',
-            'path' => 'src/Controller/GestionUserController.php',
-        ]);
+        // céer un objet réponse de type json
+        $response = new JsonResponse();
+
+        // Vérifier si la requête est conforme (type ajax)
+        if ($request->isXmlHttpRequest()) {
+            // réccupérer les données et traiter les données -> variable $content
+            $content = $request->getContent();
+            // traiter les données -> variable $response
+            $response->setContent($content);
+        }
+
+        // retourner les données de la variable $response
+        return $response;
     }
 }

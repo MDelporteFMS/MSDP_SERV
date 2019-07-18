@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="079dd65b-da7f-4dd6-b51a-ed8e000d6549" name="Default Changelist" comment="" />
+    <list default="true" id="079dd65b-da7f-4dd6-b51a-ed8e000d6549" name="Default Changelist" comment="US-SERV-002 : Mise en place d'un controller (algotithme)" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <path value="$PROJECT_DIR$/tptitanic/vendor/symfony/polyfill-php73" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="410" />
     <option name="y" value="1" />
     <option name="width" value="1515" />
@@ -166,7 +166,7 @@
       <updated>1563437516671</updated>
       <workItem from="1563437518210" duration="172000" />
       <workItem from="1563437691570" duration="241000" />
-      <workItem from="1563441003323" duration="2353000" />
+      <workItem from="1563441003323" duration="2766000" />
     </task>
     <task id="LOCAL-00001" summary="US-SERV-002 : Mise en place d'un controller (algotithme)">
       <created>1563441594626</created>
@@ -179,11 +179,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2766000" />
+    <option name="totallyTimeSpent" value="3179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
